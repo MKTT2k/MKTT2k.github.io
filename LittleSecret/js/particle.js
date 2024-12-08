@@ -209,7 +209,7 @@ var ParticlePool = (function() {
         (point.x * settings.particles.size) / 350;
       point.y =
         settings.particles.size / 2 -
-        (point.y * settings.particles.size) / 350;
+        (point.y * settings.particles.size)/ 350;
       return point;
     }
     // create the path
